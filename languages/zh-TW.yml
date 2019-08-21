@@ -14,7 +14,7 @@ common:
     prev: '上一頁'
     next: '下一頁'
 widget:
-    follow: '追蹤'
+    follow: 'Follow'
     recents: '最新文章'
     links: '連結'
     tag_cloud: '標籤雲'
