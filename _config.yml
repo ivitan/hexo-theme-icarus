@@ -132,13 +132,9 @@ widgets:
         follow_link: 'https://github.com/ivitan'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/ivitan'
             Email:
                 icon: fa fa-envelope
                 url: 'mailto:vitan.me@gmail.com'
-            
             Weibo:
                 icon: fab fa-weibo
                 url: 'https://weibo.com/ivitan'
