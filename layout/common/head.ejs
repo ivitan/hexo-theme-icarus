@@ -29,6 +29,7 @@
 <link rel="icon" href="<%- url_for(get_config('favicon')) %>">
 <% } %>
 
+<%- _js(cdn('jquery', '3.3.1', 'dist/jquery.min.js')) %>
 <%- _css(cdn('bulma', '0.7.2', 'css/bulma.css')) %>
 <%- _css(iconcdn()) %>
 <%- _css(fontcdn('Ubuntu:400,600|Source+Code+Pro')) %>
