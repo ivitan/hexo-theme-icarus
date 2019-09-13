@@ -1,7 +1,7 @@
 # Version of the Icarus theme that is currently used
 version: 2.6.0
 # Path or URL to the website's icon
-favicon: /images/vitan.svg
+favicon: /images/vitan.png
 # Additional HTML meta tags in an array.
 meta: 
 # Path or URL to RSS atom.xml
@@ -22,6 +22,7 @@ navbar:
         RSS:
             icon: fa fa-rss
             url: /atom.xml
+
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -29,12 +30,12 @@ footer:
         GitHub:
             icon: fab fa-github
             url: 'https://github.com/ivitan'
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
+        SiteMap:
+            icon: fas fa-map-signs
+            url: '/sitemap.xml'
+        SiteMaps:
+            icon: fas fa-map-marker-alt
+            url: '/bdmap.xml'
         
 # Article display settings
 article:
@@ -102,7 +103,7 @@ widgets:
         # Author's current location to be shown in the profile widget
         location: Canton,China
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /images/vitan.svg
+        avatar: /images/ivitan.svg
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: vitan.me@gmail.com
         # Whether to show avatar image rounded or square
