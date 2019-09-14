@@ -21,7 +21,7 @@ navbar:
     links:
         RSS:
             icon: fa fa-rss
-            url: /atom.xml
+            url: /xml/atom.xml
 
 # Footer section link settings
 footer:
@@ -30,12 +30,12 @@ footer:
         GitHub:
             icon: fab fa-github
             url: 'https://github.com/ivitan'
-        SiteMap:
-            icon: fas fa-map-signs
-            url: '/sitemap.xml'
-        SiteMaps:
-            icon: fas fa-map-marker-alt
-            url: '/bdmap.xml'
+        Sitemap:
+            icon: fas fa-sitemap
+            url: '/xml/sitemap.xml'
+        Sitemaps:
+            icon: fa fa-map-signs
+            url: '/xml/bdmap.xml'
         
 # Article display settings
 article:
@@ -129,12 +129,15 @@ widgets:
         position: left
     -
         # Widget name
-        type: recent_posts
+        type: tagcloud
         # Where should the widget be placed, left or right
+        position: left
+    -   
+        type: tag
         position: left
     -
         # Widget name
-        type: tagcloud
+        type: recent_posts
         # Where should the widget be placed, left or right
         position: left
     -
