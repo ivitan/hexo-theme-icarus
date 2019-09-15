@@ -132,9 +132,6 @@ widgets:
         type: tagcloud
         # Where should the widget be placed, left or right
         position: left
-    -   
-        type: tag
-        position: left
     -
         # Widget name
         type: recent_posts
