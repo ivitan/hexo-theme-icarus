@@ -7,7 +7,7 @@ meta:
 # Path or URL to RSS atom.xml
 rss: /atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/ivitan.png
+logo: /images/logo.png
 
 # Navigation bar link settings
 navbar:
@@ -33,9 +33,6 @@ footer:
         Sitemap:
             icon: fas fa-sitemap
             url: '/xml/sitemap.xml'
-        Sitemaps:
-            icon: fa fa-map-signs
-            url: '/xml/bdmap.xml'
         
 # Article display settings
 article:
@@ -103,7 +100,7 @@ widgets:
         # Author's current location to be shown in the profile widget
         location: Canton,China
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /images/ivitan.svg
+        avatar: /images/ivitan.png
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: vitan.me@gmail.com
         # Whether to show avatar image rounded or square
